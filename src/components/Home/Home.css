@@ -1,0 +1,94 @@
+.amount, .place-of-spend{
+  display: flex;
+  gap: 10px;
+}
+
+.amount input, .place-of-spend input{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 20px;
+  border-color: rgb(171, 127, 183);
+  background-color: rgb(254, 243, 253);
+}
+
+.amount .rupee, .place-of-spend .tag{
+  background-color: rgb(171, 127, 183);
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+
+.expense-input-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgb(254, 243, 253);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.area-of-expense{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 40px;
+}
+
+.food-container, .travel-container, .shopping-container{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.buttons{
+  display: flex;
+  gap: 10px;
+}
+.sign-out, .add-to-expense{
+  width: 25%;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(55, 4, 69);
+  color: #ffffff;
+}
+
+.home-container{
+  display: flex;
+  gap: 20px;
+  border-radius: 10px;
+  background-color: rgb(235, 206, 253);
+  padding: 30px;
+}
+
+.show-expense{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.show-expense .hello{
+  font-size: 50px;
+}
+
+.total{
+  background-color: rgb(55, 4, 69);
+  border-radius: 15px;
+  padding: 10px;
+  color: #ffffff;
+  width: 75%;
+}
+
+.total .rupee{
+  font-size: 20px;
+}
+
+.total span{
+font-size: 25px;
+}
+
+.total p{
+  opacity: 0.7;
+  font-size: 20px;
+}

@@ -1,0 +1,23 @@
+.landing-page{
+  width: 80%;
+  background-color: rgb(255, 240, 250);
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btn-container{
+  display: flex;
+  gap: 10px;
+}
+
+.btn-container button{
+  background-color: rgb(34, 16, 50);
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 13px;
+}

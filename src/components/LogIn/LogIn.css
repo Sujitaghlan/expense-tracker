@@ -1,0 +1,37 @@
+.login-container{
+  border: 1px solid rgb(24, 10, 40);
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  height: 250px;
+}
+
+.login-container form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login-container h2{
+  text-align: center;
+}
+.form-input{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-input input{
+  height: 30px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+form button{
+  background-color: rgb(30, 11, 48);
+  border: none;
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+}
